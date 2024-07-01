@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Terminal.desktop" score="292" last-seen="1719833241"/>
+    <application id="org.gnome.Terminal.desktop" score="445" last-seen="1719835923"/>
     <application id="org.gnome.Nautilus.desktop" score="3" last-seen="1719832954"/>
-    <application id="chromium_chromium.desktop" score="881" last-seen="1719833401"/>
+    <application id="firefox.desktop" score="62" last-seen="1719835921"/>
+    <application id="chromium_chromium.desktop" score="1005" last-seen="1719835935"/>
     <application id="org.gnome.gedit.desktop" score="20" last-seen="1719831342"/>
     <application id="libreoffice-draw.desktop" score="0" last-seen="1719832948"/>
     <application id="libreoffice-writer.desktop" score="1" last-seen="1719832954"/>
     <application id="ftpkg.desktop" score="1" last-seen="1719828092"/>
-    <application id="slack.desktop" score="0" last-seen="1719833401"/>
+    <application id="slack.desktop" score="0" last-seen="1719834304"/>
   </context>
 </application-state>

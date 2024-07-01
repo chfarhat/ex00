@@ -128,3 +128,9 @@
 [07/01/24, 13:37:11:897] info: Store: SET_SYSTEM_IDLE active 
 [07/01/24, 13:37:31:909] info: Store: SET_SYSTEM_IDLE idle 
 [07/01/24, 13:38:11:928] info: Store: SET_SYSTEM_IDLE active 
+[07/01/24, 13:45:04:752] info: Store: QUIT_APP  
+[07/01/24, 13:45:04:758] info: Store: DOWNLOADS_CLEANED_UP  
+[07/01/24, 13:45:04:764] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "page-closed"
+} 

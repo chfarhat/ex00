@@ -546,3 +546,129 @@
 [07/01/24, 13:37:11:895] info: Store: SET_SYSTEM_IDLE active
 [07/01/24, 13:37:31:907] info: Store: SET_SYSTEM_IDLE idle
 [07/01/24, 13:38:11:926] info: Store: SET_SYSTEM_IDLE active
+[07/01/24, 13:45:03:233] info: Breadcrumb: electron: window.focus 
+{
+  "id": 2,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+}
+[07/01/24, 13:45:03:233] info: Breadcrumb: electron: app.browser-window-focus 
+[07/01/24, 13:45:03:234] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/01/24, 13:45:04:744] info: Breadcrumb: electron: window.close 
+{
+  "id": 2,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+}
+[07/01/24, 13:45:04:745] info: Main window closed, consider it a quit action 
+{
+  "runFromTray": true,
+  "keepAppInTaskbar": false
+}
+[07/01/24, 13:45:04:745] info: Store: QUIT_APP 
+[07/01/24, 13:45:04:748] info: Breadcrumb: electron: window.hide 
+{
+  "id": 2,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+}
+[07/01/24, 13:45:04:749] info: EpicHelpers: Flushing cookie store for session 
+{
+  "sessionId": "PROD_DEFAULT_SESSION"
+}
+[07/01/24, 13:45:04:749] info: Disposing sL… 
+[07/01/24, 13:45:04:750] info: Disposing yL… 
+[07/01/24, 13:45:04:750] info: Disposing x0… 
+[07/01/24, 13:45:04:750] info: Store: DOWNLOADS_CLEANED_UP 
+[07/01/24, 13:45:04:750] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isVisible": false
+  },
+  "fromEvent": true
+}
+[07/01/24, 13:45:04:752] info: Breadcrumb: electron: window.blur 
+{
+  "id": 2,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+}
+[07/01/24, 13:45:04:752] info: Breadcrumb: electron: app.browser-window-blur 
+[07/01/24, 13:45:04:752] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/01/24, 13:45:04:754] info: flushLocalSettings: Flushing local-settings.json 
+{
+  "keys": [
+    "useHwAcceleration",
+    "rxLogging"
+  ]
+}
+[07/01/24, 13:45:04:754] info: LocalSettings: updating values 
+{
+  "key": "useHwAcceleration",
+  "value": true
+}
+[07/01/24, 13:45:04:757] info: Store: persist/FLUSH 
+[07/01/24, 13:45:04:758] info: Closing main window 
+{
+  "id": 2
+}
+[07/01/24, 13:45:04:758] info: closeWindow: attempt to close window 
+{
+  "id": 2
+}
+[07/01/24, 13:45:04:758] info: Breadcrumb: electron: window.close 
+{
+  "id": 2,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+}
+[07/01/24, 13:45:04:763] info: registerLifeCycleEvents: webContents:2 from 'loaded' to 'page-closed' took 903111 ms 
+[07/01/24, 13:45:04:763] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "page-closed"
+}
+[07/01/24, 13:45:04:764] info: Breadcrumb: electron: renderer.destroyed 
+{
+  "id": 2,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+}
+[07/01/24, 13:45:04:765] info: Store: REMOVE_WEB_CONTENTS 
+{
+  "id": 2
+}
+[07/01/24, 13:45:04:767] info: Breadcrumb: electron: window.closed 
+{
+  "id": 2,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+}
+[07/01/24, 13:45:04:768] info: Store: REMOVE_WINDOW 2
+[07/01/24, 13:45:04:770] info: 
++-------------------+-------------+
+| FLUSH_COOKIES     | 4.926038ms  |
+|-------------------+-------------+
+| FLUSH_STORE       | 0.383029ms  |
+|-------------------+-------------+
+| REMOVE_DICT       | 0.380985ms  |
+|-------------------+-------------+
+| FLUSH_TELEMETRY   | 0.128862ms  |
+|-------------------+-------------+
+| CLOSE_MAIN_WINDOW | 10.362066ms |
+|-------------------+-------------+
+| TOTAL             | 21.961618ms |
++-------------------+-------------+ 
+[07/01/24, 13:45:04:770] info: quitApplicationEpic: Finished, calling app.quit 
+[07/01/24, 13:45:04:771] info: Breadcrumb: electron: app.before-quit 
+[07/01/24, 13:45:04:771] info: Telling native-keymap to ignore all future events as we are quitting 
+[07/01/24, 13:45:04:772] info: Breadcrumb: electron: app.will-quit 
+[07/01/24, 13:45:04:916] info: Breadcrumb: electron: app.quit 
