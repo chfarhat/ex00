@@ -1,0 +1,130 @@
+[07/01/24, 13:30:00:467] info: 
+╔══════════════════════════════════════════════════════╗
+║      Slack 4.39.88, linux 6.8.4-t2-jammy on x64      ║
+╚══════════════════════════════════════════════════════╝ 
+[07/01/24, 13:30:00:467] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-console",
+  "loggerInstanceCount": 3
+}
+[07/01/24, 13:30:00:467] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "Europe/Berlin",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.39.88",
+  "PACKAGE_MANIFEST.commit": "6761143",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[07/01/24, 13:30:00:850] info: Starting Sentry (Preload) 
+[07/01/24, 13:30:00:851] info: getSentryDSN: Setting sentry URL to slack.com 
+[07/01/24, 13:30:00:857] info: Creating desktop interface object 
+[07/01/24, 13:30:00:858] info: Exposing context bridge 
+[07/01/24, 13:30:00:864] info: Store: WINDOW_CREATED {
+  "type": "main",
+  "webappType": "app",
+  "initialLoadURL": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient",
+  "id": 2,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isCurrentlyAudible": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 880,
+      "y": 400,
+      "width": 800,
+      "height": 600
+    },
+    "hasVibrancy": false
+  }
+} 
+[07/01/24, 13:30:00:865] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 1,
+  "interval": 163
+} 
+[07/01/24, 13:30:00:865] info: Store: UPDATE_SETTINGS {
+  "keyboardLayout": "us,us"
+} 
+[07/01/24, 13:30:00:867] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "unloaded",
+  "type": "app"
+} 
+[07/01/24, 13:30:00:868] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[07/01/24, 13:30:00:868] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 2,
+  "interval": 322
+} 
+[07/01/24, 13:30:00:868] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "type": "auth",
+  "history": "[REDACTED]"
+} 
+[07/01/24, 13:30:00:869] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "page-closed"
+} 
+[07/01/24, 13:30:00:869] info: Store: MAGIC_LOGIN_IN_PROGRESS false 
+[07/01/24, 13:30:00:869] info: Store: REMOVE_WEB_CONTENTS {
+  "id": 1
+} 
+[07/01/24, 13:30:01:511] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[07/01/24, 13:30:01:515] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[07/01/24, 13:30:01:529] info: [TRACER] Tracing is not sampled by default for this session. 
+[07/01/24, 13:30:01:543] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[07/01/24, 13:30:01:608] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "loaded"
+} 
+[07/01/24, 13:30:01:615] info: Store: MAIN_WINDOW_SHOWN  
+[07/01/24, 13:30:01:620] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 768,
+      "y": 298,
+      "width": 1024,
+      "height": 802
+    }
+  }
+} 
+[07/01/24, 13:30:01:621] info: Store: CLEAR_NOTIFICATIONS  
+[07/01/24, 13:30:01:654] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "type": "app",
+  "history": "[REDACTED]"
+} 
+[07/01/24, 13:30:01:756] info: Breadcrumb: fetch: undefined {
+  "method": "GET",
+  "url": "https://slack.com/api/api.test?error=",
+  "status_code": 200
+} 
+[07/01/24, 13:30:01:759] info: Network status check {
+  "elapsed_time_ms": 147,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[07/01/24, 13:30:01:761] info: Store: SET_NETWORK_STATUS online 
+[07/01/24, 13:30:03:105] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[07/01/24, 13:31:00:361] info: Store: UPDATE_SETTINGS {
+  "lastClogForProxyInfo": 1719833460356
+} 
+[07/01/24, 13:35:11:811] info: Store: SET_SYSTEM_IDLE idle 
+[07/01/24, 13:37:11:897] info: Store: SET_SYSTEM_IDLE active 
+[07/01/24, 13:37:31:909] info: Store: SET_SYSTEM_IDLE idle 
+[07/01/24, 13:38:11:928] info: Store: SET_SYSTEM_IDLE active 

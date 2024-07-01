@@ -1,0 +1,21 @@
+[07/01/24, 13:30:00:357] info: 
+╔══════════════════════════════════════════════════════╗
+║      Slack 4.39.88, linux 6.8.4-t2-jammy on x64      ║
+╚══════════════════════════════════════════════════════╝ 
+[07/01/24, 13:30:00:357] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-service-worker-console",
+  "loggerInstanceCount": 2
+}
+[07/01/24, 13:30:00:357] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "Europe/Berlin",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.39.88",
+  "PACKAGE_MANIFEST.commit": "6761143",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}

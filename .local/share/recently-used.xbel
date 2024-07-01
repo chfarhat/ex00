@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/chfarhat/.ssh/config" added="2024-07-01T10:25:44.545990Z" modified="2024-07-01T10:45:40.935916Z" visited="2024-07-01T10:25:44.545990Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-07-01T10:45:40.935915Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/chfarhat/.ssh/id_ed25519" added="2024-07-01T10:45:45.302109Z" modified="2024-07-01T10:53:44.989590Z" visited="2024-07-01T10:45:45.302109Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-07-01T10:53:44.989589Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/chfarhat/.ssh/id_ed25519.pub" added="2024-07-01T10:55:37.985632Z" modified="2024-07-01T11:22:30.470158Z" visited="2024-07-01T10:55:37.985634Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-publisher"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;libreoffice --draw %U&apos;" modified="2024-07-01T11:22:28.752497Z" count="2"/>
+          <bookmark:application name="LibreOffice 7.3" exec="&apos;soffice %u&apos;" modified="2024-07-01T11:22:30.470157Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

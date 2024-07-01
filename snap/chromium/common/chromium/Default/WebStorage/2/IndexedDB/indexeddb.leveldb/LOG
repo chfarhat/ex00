@@ -1,0 +1,6 @@
+2024/07/01-13:29:03.263 1132f Creating DB /home/chfarhat/snap/chromium/common/chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb since it was missing.
+2024/07/01-13:29:03.268 1132f Reusing MANIFEST /home/chfarhat/snap/chromium/common/chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/07/01-13:31:43.682 1132f Level-0 table #5: started
+2024/07/01-13:31:43.688 1132f Level-0 table #5: 1200 bytes OK
+2024/07/01-13:31:43.691 1132f Delete type=0 #3
+2024/07/01-13:31:43.692 1132f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
